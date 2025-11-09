@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agnelli</title>
+    <title>Joseph Agnelli — Frontend Engineer</title>
+    <meta name="description" content="Frontend Engineer. Lead developer of Covet by Christos (CBC) and former Growth Engineer at Meta.">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="./files/climbing.png?">
+    <link rel="icon" type="image/x-icon" href="./files/lamp-2.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,100 +16,138 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- End Fonts -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="Joseph Agnelli — Frontend Engineer">
+    <meta property="og:description" content="Lead developer of Covet by Christos (CBC). Former Growth Engineer at Meta.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/files/headshot.webp">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:alt" content="Joseph Agnelli">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Joseph Agnelli — Frontend Engineer">
+    <meta name="twitter:description" content="Lead developer of Covet by Christos (CBC). Former Growth Engineer at Meta.">
+    <meta name="twitter:image" content="/files/headshot.webp">
 </head>
 <body>
-    <div id="header">
-        <h1>Boulder Better</h1>
-        <h3>With Private Coaching From Joe Agnelli</h3>
-    </div>
-    <div class="slideshow">
-        <div class="slide">
-            <div class="title"><h4>Bio</h4></div>
-            <div class="wrapper">
-                <img src="./files/indoor.png" alt="Joe climbing on red slopers indoors"/>
-                <div class="content">
-                    <p>Hello!</p>
-                   <p>I'm Joe, a passionate climbing coach with 7 years of experience in the climbing world.</p>
-                    <p> My journey began as a hobby, but it quickly grew into a lifelong passion that I now have the privilege to share with others.</p>
-                    <p>Whether you're a beginner looking to get started, or an experienced climber aiming to refine your skills, I'm here to help you reach new heights.</p>
-                    <div class="InfoWrapper">
-                        <div class="pricing">
-                            <strong>Pricing:</strong>
-                            <ul>
-                                <li>1 hour - $30 <!-- Google Calendar Appointment Scheduling begin -->
-                                    <span id="bookingLink"> 
-                                        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-                                        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-                                        <script>
-                                        (function() {
-                                        var target = document.currentScript;
-                                        window.addEventListener('load', function() {
-                                            calendar.schedulingButton.load({
-                                            url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ12ZKKIaukwUbDZhiEs9K0XEnHHprYhA_gS_reCcB2gCdpDe8UO30jcYQK1j0ze7uPSWQQk4AF-?gv=true',
-                                            color: '#039BE5',
-                                            label: 'Book Your Session',
-                                            target,
-                                            });
-                                        });
-                                        })();
-                                        </script>
-                                    </span>
-                                    <!-- end Google Calendar Appointment Scheduling --></li>
-                            </ul>
-                        </div>
-                        <div>
-                            <strong>Contact:</strong>
-                            <ul>
-                                <li>(603)-707-6626</li>
-                                <li>JoeBouldering@gmail.com</li>
-                            </ul>
+    <header id="header">
+        <div class="container nav">
+            <div class="brand">
+                <a class="home-link" href="#top" aria-label="Go to top">Agnelli</a>
+            </div>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#highlights">Highlights</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-                        </div>
+    <main id="top">
+        <section id="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Joseph Agnelli</h1>
+                    <h2>Frontend Engineer</h2>
+                    <p class="lede">
+                        Lead developer on Covet by Christos (CBC) — a luxury live-shopping network — and former Growth Engineer at Meta.
+                    </p>
+                    <div class="cta">
+                        <a id="emailLink" class="btn primary" href="mailto:joeyagnelli@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+                        <a id="resumeLink" class="btn" href="./files/joseph_agnelli_resume.pdf" target="_blank" rel="noopener">Resume</a>
+                        <a id="linkedinLink" class="btn" href="https://www.linkedin.com/in/joseph-agnelli-b8ba61119/" target="_blank" rel="noopener"><img class="icon-img" src="./files/LI-In-Bug.png" alt="LinkedIn"> LinkedIn</a>
                     </div>
-                    <p>You can pay with cash, Venmo, Zelle, or Paypal after our session</p>
-                    <p>You'll also need to purchase a daypass or membership at the gym</p>
-            </div>
-        </div>
-        </div>
-        <div class="slide">
-            <div class="title"><h4>Coaching Philosophy</h4></div>
-            <div class="wrapper">
-                <img id="mobileImage" src="./files/golden.png" alt="Joe climbing outdoors on golden-colored rock"/>
-                <div class="content">
-                <p>
-                    My coaching philosophy is holistic, integrating physical training, mental resilience, and technical skills. </p>
-                    <p>Here are the key elements:</p>
-                    <ol>
-                    <li><strong>Personalized Training</strong>: Tailored plans that address your unique strengths, weaknesses, and goals.</li>
-                    <li><strong>Mental Resilience</strong>: Techniques to enhance focus, manage fear, and stay motivated.</li>
-                    <li><strong>Injury Prevention</strong>: Safe practices, conditioning exercises, and recovery strategies for long-term health.</li>
-                    <li><strong>Efficient Training</strong>: High-quality, targeted sessions to maximize progress.</li>
-                    <li><strong>Continuous Learning</strong>: Embracing new techniques and methods for ongoing improvement.</li>
-                    </ol>   
-                    <p>By combining these elements, I help you climb safely, efficiently, and effectively, achieving your full potential.</p>
                 </div>
-                <img id="desktopImage" src="./files/golden.png" alt="Joe climbing outdoors on golden-colored rock"/>
-            </div>
-        </div>
-        <div class="slide">
-            <div class="title"><h4>What to Expect in Our Sessions</h4></div>
-            <div class="wrapper">
-                <img src="./files/out_crack.jpeg" alt="Joe hand-jamming outdoors on a granite boulder"/>
-                <div class="content">
-                <p>
-                    Ultimately, our sessions can take whatever shape will help you the most, but typically they'll follow this pattern: 
-                </p>
-                <ol>
-                    <li>Warm Up (You should do this before coming to our sessions to make the most of our limited time)</li>
-                    <li>Find a challening boulder for you to work on</li>
-                    <li>Use a combination of active demontrations and video analysis to work through the boulder</li>
-                    <li>Iterate across a number of differnt climbing styles to help you stay well rounded</li>
-                </ol>
-                <h4 style="text-align: center;">Remember: Climbing hard is about using technique to make boulders easier </h4>
-                <p>My goal is to help you learn technique on an intuitive level, so even difficult boulders feel easy</p>
+                <div class="hero-photo">
+                    <img src="./files/headshot.webp" alt="Joseph Agnelli" loading="eager" decoding="async">
                 </div>
             </div>
+        </section>
+
+        <section id="highlights" aria-labelledby="highlights-title">
+            <div class="container">
+                <h3 id="highlights-title">Highlights</h3>
+                <div class="card">
+                    <div class="card-header">
+                        <div>
+                            <h4>Covet by Christos (CBC)</h4>
+                            <p class="subtle">Lead Developer • Live-shopping network</p>
+                        </div>
+                        <a class="btn small" href="https://www.covetbychristos.com/" target="_blank" rel="noopener">Visit CBC</a>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Built and led the frontend for CBC’s live-shopping platform: real‑time programming, curated show pages, and a performant, mobile‑first UX in the luxury space.
+                        </p>
+                        <ul>
+                            <li>Shipped scalable UI for live schedules, host pages, and interactive show experiences.</li>
+                            <li>Optimized performance and accessibility for high‑traffic drops and events.</li>
+                            <li>Partnered across product and content to drive measurable engagement and conversion.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" aria-labelledby="experience-title">
+            <div class="container">
+                <h3 id="experience-title">Experience</h3>
+                <div class="timeline">
+                    <div class="role">
+                        <div class="role-header">
+                            <h4>Lead Developer — Covet by Christos (CBC)</h4>
+                            <span class="when">2023 — Present</span>
+                        </div>
+                        <p>
+                            End‑to‑end ownership of the consumer web experience for CBC, a social commerce and live‑shopping network in luxury fashion.
+                        </p>
+                    </div>
+                    <div class="role">
+                        <div class="role-header">
+                            <h4>Growth Engineer — Meta</h4>
+                            <span class="when">Prior</span>
+                        </div>
+                        <p>
+                            Focused on A/B testing, activation, and iterative UX improvements to unlock user growth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <div class="container">
+                <h3 id="about-title">About me</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            Writes code, climbs rocks, and drinks coffee.
+                            I'm always keeping busy with DIY, watching Ghibli movies and reading murder mysteries.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <div class="container contact-inner">
+                <h3 id="contact-title">Get in touch</h3>
+                <p>Open to impactful frontend roles and product‑focused teams.</p>
+                <div class="cta">
+                    <a class="btn primary" href="mailto:joeyagnelli@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+                    <a class="btn" href="./files/joseph_agnelli_resume.pdf" target="_blank" rel="noopener">Resume</a>
+                    <a class="btn" href="https://www.linkedin.com/in/joseph-agnelli-b8ba61119/" target="_blank" rel="noopener"><img class="icon-img" src="./files/LI-In-Bug.png" alt="LinkedIn"> LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <span>© <span id="year"></span> Joseph Agnelli</span>
         </div>
-    </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

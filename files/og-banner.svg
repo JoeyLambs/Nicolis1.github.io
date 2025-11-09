@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b57d0"/>
+      <stop offset="100%" stop-color="#0a3ea2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Frame -->
+  <rect x="18" y="18" width="1164" height="594" rx="20" ry="20"
+        fill="none" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+
+  <!-- Text styles are inline for portability -->
+  <!-- Edit the text below to set your final copy -->
+  <g fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="72" y="220" font-size="72" font-weight="800" letter-spacing="0.5px">
+      Joseph Agnelli
+    </text>
+    <text x="72" y="288" font-size="40" font-weight="600" opacity="0.92">
+      Frontend Engineer
+    </text>
+    <text x="72" y="372" font-size="42" font-weight="700">
+      Lead Developer — Covet by Christos (CBC)
+    </text>
+    <text x="72" y="430" font-size="28" opacity="0.88">
+      Climber, Coder, Coffee Consumer
+    </text>
+  </g>
+
+  <!-- Signature / site -->
+  <g fill="#ffffff" opacity="0.9" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="72" y="540" font-size="22">covetbychristos.com • Meta alum</text>
+    <text x="1120" y="540" font-size="22" text-anchor="end">agnelli.tech</text>
+  </g>
+</svg>
+
+
